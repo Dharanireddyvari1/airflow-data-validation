@@ -96,7 +96,7 @@ The pipeline is intentionally designed to resemble a real-world data quality enf
 
 1. Place `data_validation_dag.py` inside your Airflow `dags/` directory.
 2. Start Airflow locally:
-
+```md
 ```bash
 airflow standalone
 
