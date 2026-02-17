@@ -96,13 +96,17 @@ The pipeline is intentionally designed to resemble a real-world data quality enf
 
 1. Place `data_validation_dag.py` inside your Airflow `dags/` directory.
 2. Start Airflow locally:
-```md
+
 ```bash
 airflow standalone
-
-or via Docker: 
+```
+or via Docker:
+```bash
 docker compose up
+```
 3. Enable and trigger data_quality_pipeline in the Airflow UI.
+   
+---
 
 ## Engineering Concepts Demonstrated
 
@@ -112,9 +116,10 @@ docker compose up
 - Structured anomaly logging
 
 ## Repository Structure
-
+```
 airflow-data-validation/
 ├── dags/
 │   └── data_validation_dag.py
 ├── requirements.txt
 └── README.md
+```
