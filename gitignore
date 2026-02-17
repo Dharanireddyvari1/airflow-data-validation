@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Airflow local artifacts
+airflow.db
+airflow.cfg
+logs/
+plugins/__pycache__/
+
+# OS
+.DS_Store
+
+# Secrets
+.env
